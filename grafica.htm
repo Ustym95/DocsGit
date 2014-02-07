@@ -3,11 +3,11 @@
 <style type="text/css">
 	input.btn {
 		
-		font-size: .5in;
+		font-size: 1in;
 		font-family: "Courier New", "Courier";
 		font-weight: bold;
-		width: 1in;
-		height: 1in;
+		width: 5in;
+		height: 5in;
 	}
 </style>
 <script type="text/javascript " language="javascript" src="tris.js"></script>
@@ -15,6 +15,7 @@
 <body>
 <FORM name=simpleForm >
 
+<input class="btn" type="button" name="b1" value="" onclick=changeBox(this)>
 <input class="btn" type="button" name="b2" value="" onclick=changeBox(this)>
 <input class="btn" type="button" name="b3" value="" onclick=changeBox(this)>
 <br/> 
@@ -30,7 +31,7 @@
 </form>
 
 <FORM name=secondForm ACTION="javascript:void();" >
-Giocatore: <input type="text" name="currentmove" value="X" size="2"> </br>
+Player: <input type="text" name="currentmove" value="X" size="2"> </br>
 
 </form>
 
